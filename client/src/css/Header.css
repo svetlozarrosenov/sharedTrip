@@ -1,0 +1,11 @@
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { padding: 30px 0; }
+
+.header .header__container { display: flex; justify-content: space-between; flex-wrap: wrap; }
+
+.header .header__head { flex: 0 0 50%; }
+
+.header .header__foot { flex: 0 0 50%; padding-top: 30px; }
