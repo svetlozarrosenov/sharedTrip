@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '../components/Header.js';
-import Intro from '../components/Intro.js';
-import AboutUs from '../components/AboutUs.js';
-import Footer from '../components/Footer.js';
+import Header from '../components/Header';
+import Intro from '../components/Intro';
+import Features from '../components/Features';
+import Footer from '../components/Footer';
 
 class Home extends React.Component {
 
@@ -10,7 +10,7 @@ class Home extends React.Component {
         return (<div>
                 <Header />
                 <Intro />
-                <AboutUs />
+                <Features />
                 <Footer />
             </div>);
     }

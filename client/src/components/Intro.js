@@ -13,8 +13,7 @@ class Intro extends React.Component {
     render(){
         return (
             <div className="intro">
-                <div className="shell">
-                    <Swiper
+                <Swiper
                         spaceBetween={50}
                         slidesPerView={1}
                         loop={true}
@@ -24,7 +23,7 @@ class Intro extends React.Component {
                         }}
                         >
                         <SwiperSlide>
-                            <div className="intro__container" style={{ backgroundImage: "url(/intro.jpg)" }}>
+                            <div className="intro__container" style={{ backgroundImage: "url(/intro2.jpg)" }}>
                                 <div className="intro__inner">
                                     <h1 className="intro__title">Shared Trip!</h1>
 
@@ -51,7 +50,6 @@ class Intro extends React.Component {
                             </div>
                         </SwiperSlide>
                     </Swiper>
-                </div>
             </div>
         );
     }

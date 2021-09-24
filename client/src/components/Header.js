@@ -8,14 +8,12 @@ class Header extends React.Component {
         return (
             <header className="header">
                 <div className="shell">
-                    <div className="header__container">
-                        <div className="header__head">
-                            <Logo />
-                        </div>
+                    <div className="header__head">
+                        <Logo />
+                    </div>
 
-                        <div className="header__foot">
-                            <Nav />
-                        </div>
+                    <div className="header__foot">
+                        <Nav />
                     </div>
                 </div>
             </header>

@@ -2,5 +2,5 @@
 	# Shell
 \* ------------------------------------------------------------ */
 
-.shell { position: relative; max-width: 1200px; padding-left: 30px; padding-right: 30px; margin: auto; width: 100%; }
+.shell { position: relative; width: 100%; max-width: 1200px; padding-left: 30px; padding-right: 30px; margin: auto; }
 .shell:after { content: ''; display: table; clear: both; }

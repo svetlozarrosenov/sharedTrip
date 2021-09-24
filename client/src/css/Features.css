@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------ *\
+    Features
+\* ------------------------------------------------------------ */
+
+.features { padding: 50px 0; background-color: #f5f5f5; }
+.features .features__title { text-align: center; }
+
+/*feature*/
+.features-list { max-width: 800px; display: flex; justify-content: center; flex-wrap: wrap; margin: 0 auto; padding-top: 50px; list-style: none; }
+
+.feature { flex: 0 0 45%; margin-left: 20px; margin-bottom: 20px; padding: 20px 40px; background-color: #fff; box-shadow: 10px 10px 20px #888888; border-radius: 30px; overflow: hidden; }
+
+.feature .feature__inner { max-width: 200px; margin: 0 auto; }
+.feature .feature__title { margin-bottom: 20px; }
+.feature .feature__content { max-width: 200px;}

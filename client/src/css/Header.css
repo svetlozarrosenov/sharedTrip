@@ -2,10 +2,8 @@
     Header
 \* ------------------------------------------------------------ */
 
-.header { padding: 30px 0; }
+.header { position: fixed; top: 0; left: 0; width: 100%; padding: 10px 0; border-bottom: 2px solid #f5f5f5; z-index: 999; background-color: #fff; }
 
-.header .header__container { display: flex; justify-content: space-between; flex-wrap: wrap; }
+.header .header__head { float: left; }
 
-.header .header__head { flex: 0 0 50%; }
-
-.header .header__foot { flex: 0 0 50%; padding-top: 30px; }
+.header .header__foot { float: right; padding-top: 35px; }
