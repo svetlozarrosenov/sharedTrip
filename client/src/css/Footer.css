@@ -2,7 +2,7 @@
     Footer
 \* ------------------------------------------------------------ */
 
-.footer { padding: 50px 0; background-color: #fff; }
+.footer { padding: 50px 0; background-color: #f5f5f5; }
 
 .footer .footer__container { display: flex; justify-content: space-between; flex-wrap: wrap; }
 .footer .footer__head { flex: 0 0 30%; } 

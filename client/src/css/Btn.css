@@ -1,0 +1,6 @@
+/* ------------------------------------------------------------ *\
+	Btn
+\* ------------------------------------------------------------ */
+
+.btn { display: inline-block; padding: 10px 50px; background-color: #f5f5f5; font-size: 20px; border: 2px solid #f5f5f5; border-radius: 20px; text-decoration: none; transition: .3s; }
+.btn:hover { background-color: #fff; }

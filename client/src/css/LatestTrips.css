@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------ *\
+	# Trips
+\* ------------------------------------------------------------ */
+
+.latest-trips { padding: 50px 0; background-color: #fff; }
+
+.latest-trips .latest-trips__title { text-align: center; }
+
+.latest-trips .latest-trips__actions { margin-top: -50px; text-align: center; }
+
+/*latest-trip*/
+.latest-trips-list { display: flex; justify-content: center; flex-wrap: wrap; max-width: 1200px; margin: 0 auto; padding-top: 150px; list-style: none; }
+
+.latest-trip { position: relative; flex: 0 0 30%; margin-bottom: 150px; margin-left: 20px; padding: 130px 50px 30px; text-align: center;  background-color: #f5f5f5; box-shadow: 5px 5px 10px #888888; border-radius: 30px; }
+
+
+.latest-trip .latest-trip__driver-avatar { position:absolute; top: -100px; left: 0; right: 0; margin-left: auto; margin-right: auto; width: 200px; height: 200px; background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 100px; transition: .3s; }
+.latest-trip .latest-trip__driver-name { margin-bottom: 20px; }
+.latest-trip .latest-trip__current-town { margin-bottom: 20px; }
+.latest-trip .latest-trip__driver-stars { margin-bottom: 20px; font-size: 20px; text-align: center; }
+
+.latest-trip .latest-trip__start-date,
+.latest-trip .latest-trip__start-time { font-size: 18px;}
+
+.latest-trip:hover { cursor: pointer; }
+.latest-trip:hover .latest-trip__driver-avatar { transform: scale(1.1); }
