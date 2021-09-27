@@ -1,0 +1,11 @@
+/* ------------------------------------------------------------ *\
+	Register
+\* ------------------------------------------------------------ */
+
+.register { padding: 50px 0; }
+.register .register__title { margin-bottom: 50px; text-align: center; }
+.register .register__form { max-width: 500px; margin: 0 auto; padding: 50px; background-color: #f5f5f5; border-radius: 30px; }
+
+.register input { display: block; width: 100%; padding: 20px 10px; margin-bottom: 20px; }
+
+.register button { padding: 10px 30px; }

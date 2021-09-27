@@ -2,6 +2,8 @@
 	Base
 \* ------------------------------------------------------------ */
 
+#root { padding-top: 102px; }
+
 body {
 	background: #fff;
 	font-family: 'arial';
